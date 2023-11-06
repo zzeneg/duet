@@ -1,2 +1,3 @@
-# hfhf
+# duet
+
 Wireless unsplit keyboard
