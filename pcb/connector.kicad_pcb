@@ -272,26 +272,24 @@
     )
   )
 
-  (footprint "zzkeeb:Hole_M2" (layer "F.Cu")
+  (footprint "zzkeeb:Hole_M2-TH" (layer "F.Cu")
     (tstamp 32198225-d113-4ae1-b58c-43fb9a93a1b6)
     (at 102.583 82.516)
-    (descr "Mounting Hole 2.2mm, no annular, M2")
-    (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "connector.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/0031c1a3-3928-4f7e-8d20-910219f3d387")
-    (attr exclude_from_pos_files)
-    (fp_text reference "H1" (at -0.95 -0.55) (layer "F.Fab") hide
+    (attr through_hole)
+    (fp_text reference "H1" (at 0 2.8) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 14341093-4d05-4954-aa19-512fddf5c393)
+      (tstamp d5d63706-90ab-4cf9-af49-14a103381997)
     )
-    (fp_text value "MountingHole" (at 0 0.55) (layer "F.Fab") hide
+    (fp_text value "MountingHole" (at 0 -2.8) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 683cde57-c7e8-4c82-9576-3bb527d46905)
+      (tstamp a19c14de-4a63-4cbe-8c11-a04875c51f3f)
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 2.3 2.3) (drill 2.3) (layers "*.Cu" "*.Mask") (tstamp f370f484-380c-4566-bf15-618a32fc91ae))
+    (pad "" thru_hole circle (at 0 0) (size 4 4) (drill 2.3) (layers "*.Cu" "*.Mask") (tstamp a6dd84f8-892d-41be-a8db-c4d1e619bbc2))
   )
 
   (footprint "zzkeeb:Connector_VIK-magnetic-keyboard" (layer "F.Cu")
@@ -546,26 +544,24 @@
     )
   )
 
-  (footprint "zzkeeb:Hole_M2" (layer "F.Cu")
+  (footprint "zzkeeb:Hole_M2-TH" (layer "F.Cu")
     (tstamp c94e3021-1d36-442b-8107-dab7bd35cac7)
     (at 156.683 82.516)
-    (descr "Mounting Hole 2.2mm, no annular, M2")
-    (tags "mounting hole 2.2mm no annular m2")
     (property "Sheetfile" "connector.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Mounting Hole without connection")
     (property "ki_keywords" "mounting hole")
     (path "/0e13a014-04e0-48d3-a2eb-52492ae687c3")
-    (attr exclude_from_pos_files)
-    (fp_text reference "H2" (at -0.95 -0.55) (layer "F.Fab") hide
+    (attr through_hole)
+    (fp_text reference "H2" (at 0 2.8) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp a49f54de-b29b-4a92-9a57-b5bb76dbcaec)
+      (tstamp 38e51aa9-c3ca-4810-aba9-b8211242822c)
     )
-    (fp_text value "MountingHole" (at 0 0.55) (layer "F.Fab") hide
+    (fp_text value "MountingHole" (at 0 -2.8) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 1519f135-cbb9-44c5-ba8b-f7c30e985f40)
+      (tstamp f3d1579c-8874-443c-b124-88005157f215)
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 2.3 2.3) (drill 2.3) (layers "*.Cu" "*.Mask") (tstamp d7bb3e8c-925a-445e-9bfc-d110ba4d5962))
+    (pad "" thru_hole circle (at 0 0) (size 4 4) (drill 2.3) (layers "*.Cu" "*.Mask") (tstamp d5f6dc71-9cf1-42e2-bf54-c8a128b6d8bc))
   )
 
   (footprint "zzkeeb:Connector_JST-1x12-P1.25mm-vertical" (layer "B.Cu")
@@ -991,6 +987,12 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e1ba6f5e-d37b-48cf-94c4-8beaeea8b682))
   (gr_line (start 153.583 85.516) (end 155.583 85.516)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e9f66d34-97f6-4c2f-ac68-ad09265b6bef))
+  (gr_text "v0.1" (at 157.483 79.516) (layer "B.SilkS") (tstamp 1611b28e-381e-4829-8d40-f91441333061)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "v0.1" (at 157.583 79.516) (layer "F.SilkS") (tstamp 7894a49b-87c9-4682-bfa9-9d07471621a8)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
 
   (segment (start 131.083 86.765294) (end 131.083 83.616) (width 0.15) (layer "F.Cu") (net 1) (tstamp 08341350-2c3b-49ad-9b64-4859231a5f0a))
   (segment (start 130.733 87.116) (end 111.433 87.116) (width 0.15) (layer "F.Cu") (net 1) (tstamp 0b6c7a7c-1bbf-48c1-98e3-047380532727))
