@@ -879,6 +879,9 @@
       )
     )
   )
+  (gr_text "JLCJLCJLCJLC" (at 86.9 85.5) (layer "B.SilkS") (tstamp b876217c-d83b-4c97-a0e2-94725b61126f)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
   (gr_text "E\nT" (at 86.9 73.5) (layer "F.SilkS") (tstamp 98a4bb34-cd7d-4e53-8a0c-3caa51fe6380)
     (effects (font (face "Helvetica") (size 2.2 2.2) (thickness 0.2) bold))
     (render_cache "E\nT" 0
