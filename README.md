@@ -1,6 +1,8 @@
 # duet
 
-Wireless unibody portable keyboard.
+Wireless unibody/unsplit portable keyboard.
+
+[![image](https://github.com/zzeneg/duet/assets/910255/9c8ab5e8-fe0d-476c-9eb6-1208418ce3c7)](https://www.youtube.com/watch?v=R7SToNp1SO8)
 
 ## Features
 
@@ -13,8 +15,14 @@ Wireless unibody portable keyboard.
 
 ## Photos
 
+
+
+https://github.com/zzeneg/duet/assets/910255/740595a8-76a9-42da-903d-3cff3896a925
+
+
+
 ![](./images/top.jpg)
-![](./images/center.jpg)
+![](./images/bottom.jpg)
 [...more](./images)
 
 ## Firmware
