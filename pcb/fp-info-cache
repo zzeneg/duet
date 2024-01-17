@@ -1,4 +1,4 @@
-3280402851292567
+3283829314631358
 Button_Switch_SMD
 Nidec_Copal_CAS-120A
 Slide Switch, SMD, Nidec CAS series, https://www.nidec-components.com/e/catalog/switch/cas.pdf
@@ -12886,6 +12886,20 @@ connector JST PH top entry
 0
 8
 8
+zzkeeb
+Connector_FFC-12pin-1mm-horizontal
+TE FPC connector, 12 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+14
+13
+zzkeeb
+Connector_FFC-12pin-1mm-vertical
+
+
+0
+14
+12
 zzkeeb
 Connector_HRO-TYPE-C-31-M-12-cutout
 
