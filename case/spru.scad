@@ -11,8 +11,8 @@ union() {
     translate([0, spacing, 0]) import(stl2);
     translate([-2, spacing * 2, 0]) import(stl3);
 
-    translate([2, -spacing / 2 * 0.9, - 0.9 * r])
+    translate([2, 0, - 0.9 * r])
     rotate ([270, 0, 0])
-    cylinder(h = (count) * spacing - spacing * 0.1, r = r, $fn=15)
+    cylinder(h = (count) * spacing - 21, r = r, $fn=15)
     ;
 };
